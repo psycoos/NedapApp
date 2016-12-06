@@ -1,6 +1,6 @@
 # RAPP
 ## Deze app doet coole dingen
 gemaakt door:
--Coos
--Jurjen
--Charlotte
+- Coos
+- Jurjen
+- Charlotte
