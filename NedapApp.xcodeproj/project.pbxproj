@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29891661DF6BA1500CDB224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891651DF6BA1500CDB224 /* AppDelegate.swift */; };
+		F29891681DF6BA1500CDB224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891671DF6BA1500CDB224 /* ViewController.swift */; };
+		F298916B1DF6BA1600CDB224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29891691DF6BA1600CDB224 /* Main.storyboard */; };
+		F298916D1DF6BA1600CDB224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F298916C1DF6BA1600CDB224 /* Assets.xcassets */; };
+		F29891701DF6BA1600CDB224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F298916E1DF6BA1600CDB224 /* LaunchScreen.storyboard */; };
+		F298917B1DF6BA1600CDB224 /* NedapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298917A1DF6BA1600CDB224 /* NedapAppTests.swift */; };
+		F29891861DF6BA1600CDB224 /* NedapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891851DF6BA1600CDB224 /* NedapAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29891771DF6BA1600CDB224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F298915A1DF6BA1400CDB224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29891611DF6BA1400CDB224;
+			remoteInfo = NedapApp;
+		};
+		F29891821DF6BA1600CDB224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F298915A1DF6BA1400CDB224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29891611DF6BA1400CDB224;
+			remoteInfo = NedapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F29891621DF6BA1500CDB224 /* NedapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NedapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29891651DF6BA1500CDB224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F29891671DF6BA1500CDB224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F298916A1DF6BA1600CDB224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F298916C1DF6BA1600CDB224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F298916F1DF6BA1600CDB224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F29891711DF6BA1600CDB224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29891761DF6BA1600CDB224 /* NedapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NedapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F298917A1DF6BA1600CDB224 /* NedapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NedapAppTests.swift; sourceTree = "<group>"; };
+		F298917C1DF6BA1600CDB224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29891811DF6BA1600CDB224 /* NedapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NedapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29891851DF6BA1600CDB224 /* NedapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NedapAppUITests.swift; sourceTree = "<group>"; };
+		F29891871DF6BA1600CDB224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F298915F1DF6BA1400CDB224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29891731DF6BA1600CDB224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F298917E1DF6BA1600CDB224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29891591DF6BA1400CDB224 = {
+			isa = PBXGroup;
+			children = (
+				F29891641DF6BA1500CDB224 /* NedapApp */,
+				F29891791DF6BA1600CDB224 /* NedapAppTests */,
+				F29891841DF6BA1600CDB224 /* NedapAppUITests */,
+				F29891631DF6BA1500CDB224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F29891631DF6BA1500CDB224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29891621DF6BA1500CDB224 /* NedapApp.app */,
+				F29891761DF6BA1600CDB224 /* NedapAppTests.xctest */,
+				F29891811DF6BA1600CDB224 /* NedapAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29891641DF6BA1500CDB224 /* NedapApp */ = {
+			isa = PBXGroup;
+			children = (
+				F29891651DF6BA1500CDB224 /* AppDelegate.swift */,
+				F29891671DF6BA1500CDB224 /* ViewController.swift */,
+				F29891691DF6BA1600CDB224 /* Main.storyboard */,
+				F298916C1DF6BA1600CDB224 /* Assets.xcassets */,
+				F298916E1DF6BA1600CDB224 /* LaunchScreen.storyboard */,
+				F29891711DF6BA1600CDB224 /* Info.plist */,
+			);
+			path = NedapApp;
+			sourceTree = "<group>";
+		};
+		F29891791DF6BA1600CDB224 /* NedapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F298917A1DF6BA1600CDB224 /* NedapAppTests.swift */,
+				F298917C1DF6BA1600CDB224 /* Info.plist */,
+			);
+			path = NedapAppTests;
+			sourceTree = "<group>";
+		};
+		F29891841DF6BA1600CDB224 /* NedapAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F29891851DF6BA1600CDB224 /* NedapAppUITests.swift */,
+				F29891871DF6BA1600CDB224 /* Info.plist */,
+			);
+			path = NedapAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29891611DF6BA1400CDB224 /* NedapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F298918A1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapApp" */;
+			buildPhases = (
+				F298915E1DF6BA1400CDB224 /* Sources */,
+				F298915F1DF6BA1400CDB224 /* Frameworks */,
+				F29891601DF6BA1400CDB224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NedapApp;
+			productName = NedapApp;
+			productReference = F29891621DF6BA1500CDB224 /* NedapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F29891751DF6BA1600CDB224 /* NedapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F298918D1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppTests" */;
+			buildPhases = (
+				F29891721DF6BA1600CDB224 /* Sources */,
+				F29891731DF6BA1600CDB224 /* Frameworks */,
+				F29891741DF6BA1600CDB224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29891781DF6BA1600CDB224 /* PBXTargetDependency */,
+			);
+			name = NedapAppTests;
+			productName = NedapAppTests;
+			productReference = F29891761DF6BA1600CDB224 /* NedapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F29891801DF6BA1600CDB224 /* NedapAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29891901DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppUITests" */;
+			buildPhases = (
+				F298917D1DF6BA1600CDB224 /* Sources */,
+				F298917E1DF6BA1600CDB224 /* Frameworks */,
+				F298917F1DF6BA1600CDB224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29891831DF6BA1600CDB224 /* PBXTargetDependency */,
+			);
+			name = NedapAppUITests;
+			productName = NedapAppUITests;
+			productReference = F29891811DF6BA1600CDB224 /* NedapAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F298915A1DF6BA1400CDB224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Coos;
+				TargetAttributes = {
+					F29891611DF6BA1400CDB224 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EBSX6CSZNX;
+						ProvisioningStyle = Automatic;
+					};
+					F29891751DF6BA1600CDB224 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EBSX6CSZNX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F29891611DF6BA1400CDB224;
+					};
+					F29891801DF6BA1600CDB224 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EBSX6CSZNX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F29891611DF6BA1400CDB224;
+					};
+				};
+			};
+			buildConfigurationList = F298915D1DF6BA1400CDB224 /* Build configuration list for PBXProject "NedapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29891591DF6BA1400CDB224;
+			productRefGroup = F29891631DF6BA1500CDB224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29891611DF6BA1400CDB224 /* NedapApp */,
+				F29891751DF6BA1600CDB224 /* NedapAppTests */,
+				F29891801DF6BA1600CDB224 /* NedapAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29891601DF6BA1400CDB224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29891701DF6BA1600CDB224 /* LaunchScreen.storyboard in Resources */,
+				F298916D1DF6BA1600CDB224 /* Assets.xcassets in Resources */,
+				F298916B1DF6BA1600CDB224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29891741DF6BA1600CDB224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F298917F1DF6BA1600CDB224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F298915E1DF6BA1400CDB224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29891681DF6BA1500CDB224 /* ViewController.swift in Sources */,
+				F29891661DF6BA1500CDB224 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29891721DF6BA1600CDB224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F298917B1DF6BA1600CDB224 /* NedapAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F298917D1DF6BA1600CDB224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29891861DF6BA1600CDB224 /* NedapAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29891781DF6BA1600CDB224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29891611DF6BA1400CDB224 /* NedapApp */;
+			targetProxy = F29891771DF6BA1600CDB224 /* PBXContainerItemProxy */;
+		};
+		F29891831DF6BA1600CDB224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29891611DF6BA1400CDB224 /* NedapApp */;
+			targetProxy = F29891821DF6BA1600CDB224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F29891691DF6BA1600CDB224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F298916A1DF6BA1600CDB224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F298916E1DF6BA1600CDB224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F298916F1DF6BA1600CDB224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29891881DF6BA1600CDB224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F29891891DF6BA1600CDB224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F298918B1DF6BA1600CDB224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EBSX6CSZNX;
+				INFOPLIST_FILE = NedapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F298918C1DF6BA1600CDB224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EBSX6CSZNX;
+				INFOPLIST_FILE = NedapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F298918E1DF6BA1600CDB224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EBSX6CSZNX;
+				INFOPLIST_FILE = NedapAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NedapApp.app/NedapApp";
+			};
+			name = Debug;
+		};
+		F298918F1DF6BA1600CDB224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EBSX6CSZNX;
+				INFOPLIST_FILE = NedapAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NedapApp.app/NedapApp";
+			};
+			name = Release;
+		};
+		F29891911DF6BA1600CDB224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EBSX6CSZNX;
+				INFOPLIST_FILE = NedapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NedapApp;
+			};
+			name = Debug;
+		};
+		F29891921DF6BA1600CDB224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EBSX6CSZNX;
+				INFOPLIST_FILE = NedapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NedapApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F298915D1DF6BA1400CDB224 /* Build configuration list for PBXProject "NedapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29891881DF6BA1600CDB224 /* Debug */,
+				F29891891DF6BA1600CDB224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F298918A1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F298918B1DF6BA1600CDB224 /* Debug */,
+				F298918C1DF6BA1600CDB224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F298918D1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F298918E1DF6BA1600CDB224 /* Debug */,
+				F298918F1DF6BA1600CDB224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F29891901DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29891911DF6BA1600CDB224 /* Debug */,
+				F29891921DF6BA1600CDB224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F298915A1DF6BA1400CDB224 /* Project object */;
+}
