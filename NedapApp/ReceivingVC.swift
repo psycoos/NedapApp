@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ReceivingVC.swift
 //  NedapApp
 //
 //  Created by Coos on 06/12/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ReceivingVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
