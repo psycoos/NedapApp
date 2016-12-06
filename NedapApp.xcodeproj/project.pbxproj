@@ -512,6 +512,7 @@
 				F298918C1DF6BA1600CDB224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F298918D1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				F298918F1DF6BA1600CDB224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F29891901DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				F29891921DF6BA1600CDB224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
