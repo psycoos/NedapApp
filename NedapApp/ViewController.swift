@@ -117,8 +117,8 @@ class ViewController: UIViewController {
 func showPasswordAlert() {
     let alertController = UIAlertController(title: "Password Touch-ID", message: "Enter your password", preferredStyle: .alert)
     
-    let defaultAction = UIAlertAction(title: "OK", style: .Cancel, { (action) -> Void in
-        if let textField = alertController.textFields?.first as UITextField {
+    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: { (action) -> Void in
+        if let textField = alertController.textFields.first? as UITextField {
             if textField.text == "" {
                 print ("Authentication Succesfull")
             }
@@ -126,15 +126,15 @@ func showPasswordAlert() {
                 self.showPasswordAlert()
             }
         }
-    },
+    })
                                       
-        alertController().addAction(defaultAction),
+    alertController.addAction(defaultAction)
                                       
-        alertController.addTextField(configurationHandler :(textField)) -> Void in
-        textField.placeholder() = "Password"
-        textField.secureTextEntry() = true
+    alertController.addTextField(configurationHandler:  { (textField) -> Void in
+        textField.placeholder = "Password"
+        textField.secureTextEntry = true
+    })
+
+    self.presentViewController(ViewController, animated: true, completion: nil)
 }
-
-self.presentViewController(ViewController, animated: true, completion: nil)
-
 
