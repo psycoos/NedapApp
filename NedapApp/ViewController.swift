@@ -9,8 +9,10 @@
 import UIKit
 import LocalAuthentication
 
-class AuthenticationViewController: UIViewController {
 
+class ViewController: UIViewController {
+
+    
     @IBAction func loginButton(_ sender: UIButton) {
         let authenticationContext = LAContext()
         var error:NSError?
@@ -21,7 +23,7 @@ class AuthenticationViewController: UIViewController {
             return
         }
         
-        authenticationContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "If your awesome you may enter", reply: { [unowned self] (success, error) -> Void in
+        authenticationContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Place your finger on the home button", reply: { [unowned self] (success, error) -> Void in
             
             if(success) {
                 self.navigateToAuthenticatedViewController()
@@ -111,4 +113,28 @@ class AuthenticationViewController: UIViewController {
 
 
 }
+
+func showPasswordAlert() {
+    let alertController = UIAlertController(title: "Password Touch-ID", message: "Enter your password", preferredStyle: .alert)
+    
+    let defaultAction = UIAlertAction(title: "OK", style: .Cancel, { (action) -> Void in
+        if let textField = alertController.textFields?.first as UITextField {
+            if textField.text == "" {
+                print ("Authentication Succesfull")
+            }
+            else {
+                self.showPasswordAlert()
+            }
+        }
+    },
+                                      
+        alertController().addAction(defaultAction),
+                                      
+        alertController.addTextField(configurationHandler :(textField)) -> Void in
+        textField.placeholder() = "Password"
+        textField.secureTextEntry() = true
+}
+
+self.presentViewController(ViewController, animated: true, completion: nil)
+
 
