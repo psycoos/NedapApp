@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9EFFEABB1DF6C6A8006B7C83 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFFEABA1DF6C6A8006B7C83 /* LocalAuthentication.framework */; };
 		F29891661DF6BA1500CDB224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891651DF6BA1500CDB224 /* AppDelegate.swift */; };
-		F29891681DF6BA1500CDB224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891671DF6BA1500CDB224 /* ViewController.swift */; };
+		F29891681DF6BA1500CDB224 /* AuthenticateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891671DF6BA1500CDB224 /* AuthenticateViewController.swift */; };
 		F298916B1DF6BA1600CDB224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29891691DF6BA1600CDB224 /* Main.storyboard */; };
 		F298916D1DF6BA1600CDB224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F298916C1DF6BA1600CDB224 /* Assets.xcassets */; };
 		F29891701DF6BA1600CDB224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F298916E1DF6BA1600CDB224 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		9EFFEABA1DF6C6A8006B7C83 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		F29891621DF6BA1500CDB224 /* NedapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NedapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29891651DF6BA1500CDB224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F29891671DF6BA1500CDB224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F29891671DF6BA1500CDB224 /* AuthenticateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateViewController.swift; sourceTree = "<group>"; };
 		F298916A1DF6BA1600CDB224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F298916C1DF6BA1600CDB224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F298916F1DF6BA1600CDB224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				F29891651DF6BA1500CDB224 /* AppDelegate.swift */,
-				F29891671DF6BA1500CDB224 /* ViewController.swift */,
+				F29891671DF6BA1500CDB224 /* AuthenticateViewController.swift */,
 				F29891691DF6BA1600CDB224 /* Main.storyboard */,
 				F298916C1DF6BA1600CDB224 /* Assets.xcassets */,
 				F298916E1DF6BA1600CDB224 /* LaunchScreen.storyboard */,
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29891681DF6BA1500CDB224 /* ViewController.swift in Sources */,
+				F29891681DF6BA1500CDB224 /* AuthenticateViewController.swift in Sources */,
 				F29891661DF6BA1500CDB224 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

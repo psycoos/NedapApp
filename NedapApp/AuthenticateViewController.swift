@@ -10,7 +10,7 @@ import UIKit
 import LocalAuthentication
 
 
-class ViewController: UIViewController {
+class AuthenticateViewController: UIViewController {
 
     
     @IBAction func loginButton(_ sender: UIButton) {
@@ -111,30 +111,30 @@ class ViewController: UIViewController {
         }
     }
 
-
-}
-
-func showPasswordAlert() {
-    let alertController = UIAlertController(title: "Password Touch-ID", message: "Enter your password", preferredStyle: .alert)
-    
-    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: { (action) -> Void in
-        if let textField = alertController.textFields.first? as UITextField {
-            if textField.text == "" {
-                print ("Authentication Succesfull")
+    func showPasswordAlert() {
+        let alertController = UIAlertController(title: "Password Touch-ID", message: "Enter your password", preferredStyle: .alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: { (action) -> Void in
+            let textFields = alertController.textFields
+            if let textField = textFields?.first {
+                if textField.text == "" {
+                    print ("Authentication Succesfull")
+                }
+                else {
+                    self.showPasswordAlert()
+                }
             }
-            else {
-                self.showPasswordAlert()
-            }
-        }
-    })
-                                      
-    alertController.addAction(defaultAction)
-                                      
-    alertController.addTextField(configurationHandler:  { (textField) -> Void in
-        textField.placeholder = "Password"
-        textField.secureTextEntry = true
-    })
+        })
+                                          
+        alertController.addAction(defaultAction)
+                                          
+        alertController.addTextField(configurationHandler:  { (textField) -> Void in
+            textField.placeholder = "Password"
+            textField.isSecureTextEntry = true
+        })
 
-    self.presentViewController(ViewController, animated: true, completion: nil)
+
+        self.present(alertController, animated: true, completion: nil)
+    }
 }
 
