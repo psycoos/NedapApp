@@ -14,7 +14,7 @@ class AuthenticateViewController: UIViewController {
 
 
     @IBOutlet var RappLogo: UIImageView!
-    
+    // Shows the app logo
     
     
     @IBAction func loginButton(_ sender: UIButton) {
@@ -26,6 +26,7 @@ class AuthenticateViewController: UIViewController {
             showAlertViewIfNoBiometricSensorHasBeenDetected()
             return
         }
+    //
         
         authenticationContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Place your finger on the home button", reply: { [unowned self] (success, error) -> Void in
             
