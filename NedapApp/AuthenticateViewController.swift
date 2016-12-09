@@ -12,6 +12,10 @@ import LocalAuthentication
 
 class AuthenticateViewController: UIViewController {
 
+
+    @IBOutlet var RappLogo: UIImageView!
+    
+    
     
     @IBAction func loginButton(_ sender: UIButton) {
         let authenticationContext = LAContext()

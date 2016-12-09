@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ED56C7F1DFADC1200DBDAD6 /* System San Francisco Display Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED56C7B1DFADC1200DBDAD6 /* System San Francisco Display Bold.ttf */; };
+		9ED56C801DFADC1200DBDAD6 /* System San Francisco Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED56C7C1DFADC1200DBDAD6 /* System San Francisco Display Regular.ttf */; };
+		9ED56C811DFADC1200DBDAD6 /* System San Francisco Display Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED56C7D1DFADC1200DBDAD6 /* System San Francisco Display Thin.ttf */; };
+		9ED56C821DFADC1200DBDAD6 /* System San Francisco Display Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED56C7E1DFADC1200DBDAD6 /* System San Francisco Display Ultralight.ttf */; };
+		9ED56C841DFADD3700DBDAD6 /* Logo Rapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED56C831DFADD3700DBDAD6 /* Logo Rapp.png */; };
 		9EFFEABB1DF6C6A8006B7C83 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFFEABA1DF6C6A8006B7C83 /* LocalAuthentication.framework */; };
 		F29891661DF6BA1500CDB224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891651DF6BA1500CDB224 /* AppDelegate.swift */; };
 		F29891681DF6BA1500CDB224 /* AuthenticateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891671DF6BA1500CDB224 /* AuthenticateViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9ED56C7B1DFADC1200DBDAD6 /* System San Francisco Display Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Bold.ttf"; sourceTree = "<group>"; };
+		9ED56C7C1DFADC1200DBDAD6 /* System San Francisco Display Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Regular.ttf"; sourceTree = "<group>"; };
+		9ED56C7D1DFADC1200DBDAD6 /* System San Francisco Display Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Thin.ttf"; sourceTree = "<group>"; };
+		9ED56C7E1DFADC1200DBDAD6 /* System San Francisco Display Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Ultralight.ttf"; sourceTree = "<group>"; };
+		9ED56C831DFADD3700DBDAD6 /* Logo Rapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo Rapp.png"; sourceTree = "<group>"; };
 		9EFFEABA1DF6C6A8006B7C83 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		F29891621DF6BA1500CDB224 /* NedapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NedapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29891651DF6BA1500CDB224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,9 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9ED56C7A1DFADBED00DBDAD6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		9EFFEAB91DF6C6A8006B7C83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9ED56C831DFADD3700DBDAD6 /* Logo Rapp.png */,
+				9ED56C7B1DFADC1200DBDAD6 /* System San Francisco Display Bold.ttf */,
+				9ED56C7C1DFADC1200DBDAD6 /* System San Francisco Display Regular.ttf */,
+				9ED56C7D1DFADC1200DBDAD6 /* System San Francisco Display Thin.ttf */,
+				9ED56C7E1DFADC1200DBDAD6 /* System San Francisco Display Ultralight.ttf */,
 				9EFFEABA1DF6C6A8006B7C83 /* LocalAuthentication.framework */,
 			);
 			name = Frameworks;
@@ -88,6 +110,7 @@
 		F29891591DF6BA1400CDB224 = {
 			isa = PBXGroup;
 			children = (
+				9ED56C7A1DFADBED00DBDAD6 /* Fonts */,
 				F29891641DF6BA1500CDB224 /* NedapApp */,
 				F29891791DF6BA1600CDB224 /* NedapAppTests */,
 				F29891841DF6BA1600CDB224 /* NedapAppUITests */,
@@ -248,8 +271,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29891701DF6BA1600CDB224 /* LaunchScreen.storyboard in Resources */,
+				9ED56C801DFADC1200DBDAD6 /* System San Francisco Display Regular.ttf in Resources */,
+				9ED56C821DFADC1200DBDAD6 /* System San Francisco Display Ultralight.ttf in Resources */,
 				F298916D1DF6BA1600CDB224 /* Assets.xcassets in Resources */,
+				9ED56C841DFADD3700DBDAD6 /* Logo Rapp.png in Resources */,
 				F298916B1DF6BA1600CDB224 /* Main.storyboard in Resources */,
+				9ED56C7F1DFADC1200DBDAD6 /* System San Francisco Display Bold.ttf in Resources */,
+				9ED56C811DFADC1200DBDAD6 /* System San Francisco Display Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
