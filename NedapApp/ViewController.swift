@@ -11,31 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        let url = URL(string: "https://fast-gorge-22395.herokuapp.com/names")
-        let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
-            if error != nil
-            {
-                print ("ERROR")
-            }
-            else
-            {
-                if let content = data
-                {
-                    do
-                    {
-                        //wordt array
-                        let myJson = try JSONSerialization.jsonObject(with: content, options: JSONSerialization.ReadingOptions.mutableContainers) as AnyObject
-                        print (myJson)
-                    }
-                    catch
-                    {
-                        
-                    }
-                }
-            }
-        }
-        task.resume()
+            
     }
 
     override func didReceiveMemoryWarning() {

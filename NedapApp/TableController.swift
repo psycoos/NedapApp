@@ -15,7 +15,7 @@ class TableController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        get_data_from_url("https://fast-gorge-22395.herokuapp.com/names.json")
+        get_data_from_url(" ")
     }
 
     override func didReceiveMemoryWarning() {
