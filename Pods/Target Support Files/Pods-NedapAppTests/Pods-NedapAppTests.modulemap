@@ -1,0 +1,6 @@
+framework module Pods_NedapAppTests {
+  umbrella header "Pods-NedapAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
