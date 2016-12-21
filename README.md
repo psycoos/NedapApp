@@ -2,5 +2,5 @@
 ## Deze app doet coole dingen
 gemaakt door:
 - Coos
-- Jurjen
+- Jurjen (Hugh Mungus)
 - Charlotte
