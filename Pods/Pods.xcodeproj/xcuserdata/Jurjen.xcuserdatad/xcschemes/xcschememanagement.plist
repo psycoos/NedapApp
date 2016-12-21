@@ -9,17 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-NedapApp.xcscheme</key>
+		<key>Pods-pushmynotifs.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-NedapAppTests.xcscheme</key>
+		<key>Pods-pushmynotifsTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-NedapAppUITests.xcscheme</key>
+		<key>Pods-pushmynotifsUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AD905F73AADDDCBE6AFDF95BBDC07336</key>
+		<key>6AEF5198A107EF375ECC58E7B732BDF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B9258EE161B5DBC1CEB0F70DEA89CF63</key>
+		<key>7FFF90E81E3463E421D6688543AA9FCD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93B6B0DEA468FB30958B498ADCE316F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C5B80060FE8C664DF08841000F41D515</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA5A49FDB23E3C1CA5034529D6AF2DA8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

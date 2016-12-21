@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0FF8F27F896850DB2973C4E26EC1F7EE /* GTMLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF8972230C52172C835812575BED856 /* GTMLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CF87622FCBB35C01E62FC8C7B72DB5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2B2C0E50253C3E25034F2CC74D283C33 /* Pods-NedapAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED69F556474B47B31C59C8790499F9F3 /* Pods-NedapAppUITests-dummy.m */; };
-		2D4DB1AEFB8DF63B865ADE9A64BA3566 /* Pods-NedapAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D709E7D24FC9479DD9987D3AFD064094 /* Pods-NedapAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		329346398641D1DE364DCBDD45536D50 /* Pods-NedapApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F7930DAAD977C23C951D452697B8E7 /* Pods-NedapApp-dummy.m */; };
+		279A77DE61DCCBFEC48ADF81C767798A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		31D03A258B4FA991F4B250E0A7DB09D0 /* Pods-pushmynotifsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C048D46FFB69D1AD008F394E62CCC6D /* Pods-pushmynotifsUITests-dummy.m */; };
 		378409D4B120DB191348A8B0C9B61F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3E3B4CF239527A39CD308EBA9676FD8F /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 607708B247001BB71687409A2525FFCD /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CEDA934ED19C2B3D6FB316EBF51BFA7 /* Pods-pushmynotifs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE6748065C3B1EDBA5271932F0BE278 /* Pods-pushmynotifs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64418457D16D9A2F28F496AC75FC7DBD /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4F7A074997309DFFB753E117C9950A /* GoogleToolboxForMac-dummy.m */; };
+		65DAD4CB867AAAEE8324879475E54B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		755F55A7D577254B73EA7FEABA8E98E0 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 358EBD854B2F645A61F266E19B26CDCC /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DDED2B9918B467ED3D3AE56C0B62B12 /* Pods-pushmynotifsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA9636E5B7AF9946E9F8DC4D0786F2E /* Pods-pushmynotifsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E42B0910EB018027D2FFB836C78EC3 /* Pods-pushmynotifsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144FAAA5B58A5756E6A183BA1B4456FE /* Pods-pushmynotifsTests-dummy.m */; };
 		9101CEA8562055177732244271008BBB /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FB331F981E85D275BF07A5902B7936 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		93442159F1575C221234D99D44D2A225 /* Pods-NedapAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B232AB6F8C6C1E6A3D6D0516D75CC388 /* Pods-NedapAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB4F0970071E34D0384341466E0468EF /* GTMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2645E9828A6A76FA4ED5ADF12E8DF6 /* GTMLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CECEAE1C42117AF40EE5FABD5EEDA81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DA5FC91BCC051636D494F7B2C10FB0FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EA2C717B5583FC5DD4C3A89B027FFD75 /* Pods-NedapAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA75F20F44815BB345310011E2C461DF /* Pods-NedapAppTests-dummy.m */; };
+		C0D7CD48A43DA4E36360902011C2C1AC /* Pods-pushmynotifs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8EE8DDE114314AD91B301D444F79C /* Pods-pushmynotifs-dummy.m */; };
+		C70F8E6E91D24411BC21689B30757933 /* Pods-pushmynotifsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7636E8954FB5D93065159FBE63C0A5A /* Pods-pushmynotifsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED66F8BD1D43065D931F2C8890806447 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA147A0AE37EDB33DAB4191FAFF0D440 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6524846C1BA714CCCCB6E56672BDC75 /* Pods-NedapApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F054745C0765B025D9C9A767543AE2 /* Pods-NedapApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99104D4678CE6EAE885068976603DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F9456E1D57D118339A33A7226789941 /* PBXContainerItemProxy */ = {
+		80057B140F369F96709790BCF77BA20A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -37,86 +37,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10DA338EFF62BE418DB0DB60FC792BA0 /* Pods-NedapAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NedapAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C048D46FFB69D1AD008F394E62CCC6D /* Pods-pushmynotifsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pushmynotifsUITests-dummy.m"; sourceTree = "<group>"; };
+		113B9738C989422A754EA9C538F880AE /* Pods-pushmynotifs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pushmynotifs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		144FAAA5B58A5756E6A183BA1B4456FE /* Pods-pushmynotifsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pushmynotifsTests-dummy.m"; sourceTree = "<group>"; };
 		15FB331F981E85D275BF07A5902B7936 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
-		21767E527A7DDF700EB8436FA6594A81 /* Pods-NedapAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NedapAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		218A8F68B8E8EBA8489EDA0C1ED4686C /* Pods-NedapAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NedapAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		22AFA1F614BE8E66A575A67E55A67280 /* Pods-NedapAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NedapAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		2937CD9A0051B2F006AE6EC4ABDA10C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192BF7ACED502869DC557B9EBDDA4D2B /* Pods-pushmynotifsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushmynotifsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		27C8EE8DDE114314AD91B301D444F79C /* Pods-pushmynotifs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pushmynotifs-dummy.m"; sourceTree = "<group>"; };
+		297DD76973DD4CB709213AD6B754E1D2 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F11FCCEBDED443614AABABE46B85D83 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		32BB53A8BAFF50AA439C58C6BCE04E4E /* Pods-NedapApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NedapApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		358EBD854B2F645A61F266E19B26CDCC /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		3635D2B50AAD599092002AEDC29EA2B5 /* Pods-NedapAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NedapAppTests-resources.sh"; sourceTree = "<group>"; };
-		3B77C8609B38DDF5E1B7352F2B42706B /* Pods-NedapApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NedapApp.modulemap"; sourceTree = "<group>"; };
+		38EBA918A27DFB7AF9966E1D5F9EA3CE /* Pods-pushmynotifs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushmynotifs-resources.sh"; sourceTree = "<group>"; };
 		3FB309CBD15946D3BDD9C17B849D8E9A /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		4727C16535D769E33A03D6255CEA0DC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47F7930DAAD977C23C951D452697B8E7 /* Pods-NedapApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NedapApp-dummy.m"; sourceTree = "<group>"; };
 		49DABFA0EA306256890C21AAE10ECD78 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		4B3F2B5956217CF992BE2B5D6B3C8A02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D2645E9828A6A76FA4ED5ADF12E8DF6 /* GTMLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMLogger.m; path = Foundation/GTMLogger.m; sourceTree = "<group>"; };
 		518648C2BB12FC18EE633D463105E74E /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
-		54DBA44EFB1829DBDE755AE2A1F575F1 /* Pods_NedapAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NedapAppTests.framework; path = "Pods-NedapAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5229C85A972EF3510784AC5501B80484 /* Pods-pushmynotifsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushmynotifsTests-frameworks.sh"; sourceTree = "<group>"; };
+		564720FA7078BAEEF44A6DEE62DDD345 /* Pods-pushmynotifsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushmynotifsTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B3901EC040B8B0C9AD904FD3D8CB4EB /* Pods-pushmynotifsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pushmynotifsUITests.modulemap"; sourceTree = "<group>"; };
 		5F703739CD57F396A9F6CE887934737B /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Sources/FIRMessaging.h; sourceTree = "<group>"; };
 		607708B247001BB71687409A2525FFCD /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		628A10D023B2FA6C756E183BF7EC60D0 /* Pods-NedapAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NedapAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		65B734165C12BF8C497E33A0DF130417 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65DC451FD151BDDE458D708E9A57BB83 /* Pods-NedapAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NedapAppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		758C0960785D1CF4C74D767C47228D0A /* Pods-NedapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NedapApp.release.xcconfig"; sourceTree = "<group>"; };
-		77DCF64E1D2CA278B2D66F6DE4254876 /* Pods-NedapAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NedapAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A129E622A3EA90A1E3AD73F6D1D0F64 /* Pods-NedapAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NedapAppUITests-resources.sh"; sourceTree = "<group>"; };
+		6BDC499EED16304E7AFE991C9F217F8B /* Pods-pushmynotifsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pushmynotifsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CA6622F9FB4E018E050A9BA3D0FC2C6 /* Pods-pushmynotifs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pushmynotifs.modulemap"; sourceTree = "<group>"; };
+		6E071B3323B1D560608BB521B2EAD2D1 /* Pods-pushmynotifs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushmynotifs.release.xcconfig"; sourceTree = "<group>"; };
 		7B1761B60E5079AA33655EE5D37974F0 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		7CDF4B56A17F25A9C146BBB0478071DC /* Pods-NedapApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NedapApp-resources.sh"; sourceTree = "<group>"; };
-		7D835C3D1B8384AF410231FD6269D314 /* Pods-NedapAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NedapAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8078B32167135346D3499F012D09C739 /* Pods_pushmynotifsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pushmynotifsUITests.framework; path = "Pods-pushmynotifsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140A24C8B42BCF6C0053ABEA64FE19B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		843C3E4996B51AFB85D3582943A9E9DC /* Pods-NedapApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NedapApp-frameworks.sh"; sourceTree = "<group>"; };
-		87B34AE0D89DB0BFE17FDDE5C61D015D /* Pods_NedapAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NedapAppUITests.framework; path = "Pods-NedapAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CDB8E1872D7967014A5B1DAE0BD819 /* Pods-pushmynotifsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushmynotifsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		831402A6730388220ABA457A93115E20 /* Pods_pushmynotifs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pushmynotifs.framework; path = "Pods-pushmynotifs.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E0EB342CAF427D90B920C5A875D02E /* Pods-pushmynotifsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushmynotifsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90F95C76742C7983AD56DC5FCBC0F601 /* Pods-pushmynotifsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushmynotifsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9335D6C3529D989A5630A0C53407603A /* Pods-pushmynotifs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushmynotifs.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F88944841EC08574D66E5926F0F8057 /* Pods-NedapApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NedapApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		A27F8349242B54D6C39E561202D7B3B1 /* Pods-NedapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NedapApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9655F559389DB1C0AF74F72C087231A3 /* Pods-pushmynotifsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pushmynotifsTests.modulemap"; sourceTree = "<group>"; };
+		9DA9636E5B7AF9946E9F8DC4D0786F2E /* Pods-pushmynotifsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pushmynotifsUITests-umbrella.h"; sourceTree = "<group>"; };
+		9E074C19DA0A66181C7B6927B836DB45 /* Pods-pushmynotifsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushmynotifsTests-resources.sh"; sourceTree = "<group>"; };
 		A9B895901DC3F7BC01DBB6D97F3159F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA147A0AE37EDB33DAB4191FAFF0D440 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		AA9832659FEFEC8E66612A157A290361 /* Pods-pushmynotifsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pushmynotifsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AEE0E0903C2EB5265F62854FAB374A22 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		B232AB6F8C6C1E6A3D6D0516D75CC388 /* Pods-NedapAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NedapAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		B63A73A3F7AF9CDE91BD99439C9CBED5 /* Pods-NedapAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NedapAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7F054745C0765B025D9C9A767543AE2 /* Pods-NedapApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NedapApp-umbrella.h"; sourceTree = "<group>"; };
-		BA75F20F44815BB345310011E2C461DF /* Pods-NedapAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NedapAppTests-dummy.m"; sourceTree = "<group>"; };
-		BE0C324953A81931815173FB7786445D /* Pods-NedapAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NedapAppTests.modulemap"; sourceTree = "<group>"; };
-		C733A066FADC1D516E29A6D44B848C51 /* Pods-NedapAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NedapAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		B34A01553B6C56F1610BEE521A02B42C /* Pods-pushmynotifs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pushmynotifs-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7636E8954FB5D93065159FBE63C0A5A /* Pods-pushmynotifsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pushmynotifsTests-umbrella.h"; sourceTree = "<group>"; };
+		BEE6748065C3B1EDBA5271932F0BE278 /* Pods-pushmynotifs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pushmynotifs-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2DE4C5B615B143D30BABD62E4E2EEAF /* Pods-NedapAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NedapAppUITests.modulemap"; sourceTree = "<group>"; };
-		D709E7D24FC9479DD9987D3AFD064094 /* Pods-NedapAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NedapAppTests-umbrella.h"; sourceTree = "<group>"; };
+		D13FEDF81957CEFFD60C42A27BF125FF /* Pods-pushmynotifsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pushmynotifsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D8471387D38E7E85AC85647A898B4519 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		DA2C013227418973FFB17EEADDD42206 /* Pods-pushmynotifsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pushmynotifsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA7984EB5FAECFD0FCFD63EEB72BA2D5 /* Pods-pushmynotifsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushmynotifsUITests-resources.sh"; sourceTree = "<group>"; };
 		DAA0B0E1D5131826B94E307BCA93076D /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		DE7805A861A0AF79BCB055E9856D6569 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E249AA5A2EFC95E1A4E841BF16F00883 /* Pods-pushmynotifs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushmynotifs-frameworks.sh"; sourceTree = "<group>"; };
 		E75FEC41323A6FE9273C4441B616AA55 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		ED69F556474B47B31C59C8790499F9F3 /* Pods-NedapAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NedapAppUITests-dummy.m"; sourceTree = "<group>"; };
-		F15CE561AB516B97433B644EC39BA41C /* Pods_NedapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NedapApp.framework; path = "Pods-NedapApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A1E4DE4749FA6DF65E82EB12AA8BCB /* Pods_pushmynotifsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pushmynotifsTests.framework; path = "Pods-pushmynotifsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58D5785DF0DCC0DC6607302705818E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4F7A074997309DFFB753E117C9950A /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 		FDF8972230C52172C835812575BED856 /* GTMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMLogger.h; path = Foundation/GTMLogger.h; sourceTree = "<group>"; };
 		FE1F661ADBBA2BE5D48433034F3EA841 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		FE9716090671CAAA76AB06BB8CC75343 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		620094EAF5D52869320CFDDA2D180C40 /* Frameworks */ = {
+		3D258A5B5E34E0D61095FE5775225402 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF87622FCBB35C01E62FC8C7B72DB5F /* Foundation.framework in Frameworks */,
+				F99104D4678CE6EAE885068976603DD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B2F48558A69D06078FCFB81346B0F20 /* Frameworks */ = {
+		8C348B682C98405C1A2211827B6FBC12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5FC91BCC051636D494F7B2C10FB0FA /* Foundation.framework in Frameworks */,
+				279A77DE61DCCBFEC48ADF81C767798A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C29A230D4451420EAE6B43685AE40C4E /* Frameworks */ = {
+		BB0AE287806C8E5C921C7595260A84AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECEAE1C42117AF40EE5FABD5EEDA81F /* Foundation.framework in Frameworks */,
+				65DAD4CB867AAAEE8324879475E54B1C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +131,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9760A8782EF5B1FDAF0A6991AB3A62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297DD76973DD4CB709213AD6B754E1D2 /* GoogleToolboxForMac.framework */,
+				831402A6730388220ABA457A93115E20 /* Pods_pushmynotifs.framework */,
+				F4A1E4DE4749FA6DF65E82EB12AA8BCB /* Pods_pushmynotifsTests.framework */,
+				8078B32167135346D3499F012D09C739 /* Pods_pushmynotifsUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2059ABFC28AB920BBE991310CEF7774C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A2D03E31B23ACF02885D431A3533CD /* Pods-pushmynotifs */,
+				83D2EC41F1E46A9C0D117367671D70D8 /* Pods-pushmynotifsTests */,
+				E754CDCBDC9FDF714914AA3E8A038F70 /* Pods-pushmynotifsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		20D98C9BD92546859781244C1AE85536 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,24 +202,6 @@
 			path = Firebase;
 			sourceTree = "<group>";
 		};
-		70342FED84F563DC3346A553E134596B /* Pods-NedapAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				2937CD9A0051B2F006AE6EC4ABDA10C2 /* Info.plist */,
-				BE0C324953A81931815173FB7786445D /* Pods-NedapAppTests.modulemap */,
-				7D835C3D1B8384AF410231FD6269D314 /* Pods-NedapAppTests-acknowledgements.markdown */,
-				628A10D023B2FA6C756E183BF7EC60D0 /* Pods-NedapAppTests-acknowledgements.plist */,
-				BA75F20F44815BB345310011E2C461DF /* Pods-NedapAppTests-dummy.m */,
-				C733A066FADC1D516E29A6D44B848C51 /* Pods-NedapAppTests-frameworks.sh */,
-				3635D2B50AAD599092002AEDC29EA2B5 /* Pods-NedapAppTests-resources.sh */,
-				D709E7D24FC9479DD9987D3AFD064094 /* Pods-NedapAppTests-umbrella.h */,
-				218A8F68B8E8EBA8489EDA0C1ED4686C /* Pods-NedapAppTests.debug.xcconfig */,
-				22AFA1F614BE8E66A575A67E55A67280 /* Pods-NedapAppTests.release.xcconfig */,
-			);
-			name = "Pods-NedapAppTests";
-			path = "Target Support Files/Pods-NedapAppTests";
-			sourceTree = "<group>";
-		};
 		7207D231D03A0AC5F7FD044F110C35C0 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,16 +209,6 @@
 			);
 			name = GoogleSymbolUtilities;
 			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		72BC69444865FB04471C9C91D02C531F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8FD278EADCA0AB287D24D3C9C199EB64 /* Pods-NedapApp */,
-				70342FED84F563DC3346A553E134596B /* Pods-NedapAppTests */,
-				F712B29FA0C6C40CBE6063CB8B1EC79A /* Pods-NedapAppUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -240,9 +233,27 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				65DF4424803209BABE0C7E4D99000FED /* Pods */,
-				BA62FFE5CEE0DBDE9011AF5063E31BB5 /* Products */,
-				72BC69444865FB04471C9C91D02C531F /* Targets Support Files */,
+				0D9760A8782EF5B1FDAF0A6991AB3A62 /* Products */,
+				2059ABFC28AB920BBE991310CEF7774C /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		83D2EC41F1E46A9C0D117367671D70D8 /* Pods-pushmynotifsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F58D5785DF0DCC0DC6607302705818E8 /* Info.plist */,
+				9655F559389DB1C0AF74F72C087231A3 /* Pods-pushmynotifsTests.modulemap */,
+				AA9832659FEFEC8E66612A157A290361 /* Pods-pushmynotifsTests-acknowledgements.markdown */,
+				DA2C013227418973FFB17EEADDD42206 /* Pods-pushmynotifsTests-acknowledgements.plist */,
+				144FAAA5B58A5756E6A183BA1B4456FE /* Pods-pushmynotifsTests-dummy.m */,
+				5229C85A972EF3510784AC5501B80484 /* Pods-pushmynotifsTests-frameworks.sh */,
+				9E074C19DA0A66181C7B6927B836DB45 /* Pods-pushmynotifsTests-resources.sh */,
+				B7636E8954FB5D93065159FBE63C0A5A /* Pods-pushmynotifsTests-umbrella.h */,
+				81CDB8E1872D7967014A5B1DAE0BD819 /* Pods-pushmynotifsTests.debug.xcconfig */,
+				564720FA7078BAEEF44A6DEE62DDD345 /* Pods-pushmynotifsTests.release.xcconfig */,
+			);
+			name = "Pods-pushmynotifsTests";
+			path = "Target Support Files/Pods-pushmynotifsTests";
 			sourceTree = "<group>";
 		};
 		88013B649549F8484E5B9C1440F616D9 /* FirebaseAnalytics */ = {
@@ -252,24 +263,6 @@
 			);
 			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		8FD278EADCA0AB287D24D3C9C199EB64 /* Pods-NedapApp */ = {
-			isa = PBXGroup;
-			children = (
-				4B3F2B5956217CF992BE2B5D6B3C8A02 /* Info.plist */,
-				3B77C8609B38DDF5E1B7352F2B42706B /* Pods-NedapApp.modulemap */,
-				32BB53A8BAFF50AA439C58C6BCE04E4E /* Pods-NedapApp-acknowledgements.markdown */,
-				9F88944841EC08574D66E5926F0F8057 /* Pods-NedapApp-acknowledgements.plist */,
-				47F7930DAAD977C23C951D452697B8E7 /* Pods-NedapApp-dummy.m */,
-				843C3E4996B51AFB85D3582943A9E9DC /* Pods-NedapApp-frameworks.sh */,
-				7CDF4B56A17F25A9C146BBB0478071DC /* Pods-NedapApp-resources.sh */,
-				B7F054745C0765B025D9C9A767543AE2 /* Pods-NedapApp-umbrella.h */,
-				A27F8349242B54D6C39E561202D7B3B1 /* Pods-NedapApp.debug.xcconfig */,
-				758C0960785D1CF4C74D767C47228D0A /* Pods-NedapApp.release.xcconfig */,
-			);
-			name = "Pods-NedapApp";
-			path = "Target Support Files/Pods-NedapApp";
 			sourceTree = "<group>";
 		};
 		947C23295013B0437250767A38491BBF /* NSData+zlib */ = {
@@ -309,23 +302,30 @@
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
+		A4A2D03E31B23ACF02885D431A3533CD /* Pods-pushmynotifs */ = {
+			isa = PBXGroup;
+			children = (
+				DE7805A861A0AF79BCB055E9856D6569 /* Info.plist */,
+				6CA6622F9FB4E018E050A9BA3D0FC2C6 /* Pods-pushmynotifs.modulemap */,
+				113B9738C989422A754EA9C538F880AE /* Pods-pushmynotifs-acknowledgements.markdown */,
+				B34A01553B6C56F1610BEE521A02B42C /* Pods-pushmynotifs-acknowledgements.plist */,
+				27C8EE8DDE114314AD91B301D444F79C /* Pods-pushmynotifs-dummy.m */,
+				E249AA5A2EFC95E1A4E841BF16F00883 /* Pods-pushmynotifs-frameworks.sh */,
+				38EBA918A27DFB7AF9966E1D5F9EA3CE /* Pods-pushmynotifs-resources.sh */,
+				BEE6748065C3B1EDBA5271932F0BE278 /* Pods-pushmynotifs-umbrella.h */,
+				9335D6C3529D989A5630A0C53407603A /* Pods-pushmynotifs.debug.xcconfig */,
+				6E071B3323B1D560608BB521B2EAD2D1 /* Pods-pushmynotifs.release.xcconfig */,
+			);
+			name = "Pods-pushmynotifs";
+			path = "Target Support Files/Pods-pushmynotifs";
+			sourceTree = "<group>";
+		};
 		AB5690BFE5F841FFC1F2E0A3F9A6892E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				518648C2BB12FC18EE633D463105E74E /* FirebaseMessaging.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BA62FFE5CEE0DBDE9011AF5063E31BB5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				65B734165C12BF8C497E33A0DF130417 /* GoogleToolboxForMac.framework */,
-				F15CE561AB516B97433B644EC39BA41C /* Pods_NedapApp.framework */,
-				54DBA44EFB1829DBDE755AE2A1F575F1 /* Pods_NedapAppTests.framework */,
-				87B34AE0D89DB0BFE17FDDE5C61D015D /* Pods_NedapAppUITests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -372,6 +372,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E754CDCBDC9FDF714914AA3E8A038F70 /* Pods-pushmynotifsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE9716090671CAAA76AB06BB8CC75343 /* Info.plist */,
+				5B3901EC040B8B0C9AD904FD3D8CB4EB /* Pods-pushmynotifsUITests.modulemap */,
+				D13FEDF81957CEFFD60C42A27BF125FF /* Pods-pushmynotifsUITests-acknowledgements.markdown */,
+				6BDC499EED16304E7AFE991C9F217F8B /* Pods-pushmynotifsUITests-acknowledgements.plist */,
+				0C048D46FFB69D1AD008F394E62CCC6D /* Pods-pushmynotifsUITests-dummy.m */,
+				90F95C76742C7983AD56DC5FCBC0F601 /* Pods-pushmynotifsUITests-frameworks.sh */,
+				DA7984EB5FAECFD0FCFD63EEB72BA2D5 /* Pods-pushmynotifsUITests-resources.sh */,
+				9DA9636E5B7AF9946E9F8DC4D0786F2E /* Pods-pushmynotifsUITests-umbrella.h */,
+				192BF7ACED502869DC557B9EBDDA4D2B /* Pods-pushmynotifsUITests.debug.xcconfig */,
+				84E0EB342CAF427D90B920C5A875D02E /* Pods-pushmynotifsUITests.release.xcconfig */,
+			);
+			name = "Pods-pushmynotifsUITests";
+			path = "Target Support Files/Pods-pushmynotifsUITests";
+			sourceTree = "<group>";
+		};
 		E83C18D23625525E831A70E286B38580 /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -387,24 +405,6 @@
 				607708B247001BB71687409A2525FFCD /* GTMDefines.h */,
 			);
 			name = Defines;
-			sourceTree = "<group>";
-		};
-		F712B29FA0C6C40CBE6063CB8B1EC79A /* Pods-NedapAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4727C16535D769E33A03D6255CEA0DC0 /* Info.plist */,
-				D2DE4C5B615B143D30BABD62E4E2EEAF /* Pods-NedapAppUITests.modulemap */,
-				B63A73A3F7AF9CDE91BD99439C9CBED5 /* Pods-NedapAppUITests-acknowledgements.markdown */,
-				10DA338EFF62BE418DB0DB60FC792BA0 /* Pods-NedapAppUITests-acknowledgements.plist */,
-				ED69F556474B47B31C59C8790499F9F3 /* Pods-NedapAppUITests-dummy.m */,
-				65DC451FD151BDDE458D708E9A57BB83 /* Pods-NedapAppUITests-frameworks.sh */,
-				7A129E622A3EA90A1E3AD73F6D1D0F64 /* Pods-NedapAppUITests-resources.sh */,
-				B232AB6F8C6C1E6A3D6D0516D75CC388 /* Pods-NedapAppUITests-umbrella.h */,
-				77DCF64E1D2CA278B2D66F6DE4254876 /* Pods-NedapAppUITests.debug.xcconfig */,
-				21767E527A7DDF700EB8436FA6594A81 /* Pods-NedapAppUITests.release.xcconfig */,
-			);
-			name = "Pods-NedapAppUITests";
-			path = "Target Support Files/Pods-NedapAppUITests";
 			sourceTree = "<group>";
 		};
 		FC6157874135BAAAA169C450BFA343A7 /* Support Files */ = {
@@ -424,27 +424,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C48D79D74B853AE7E88468BEC5D48FC /* Headers */ = {
+		25B63725C9FA8EFE041B39F7E1236005 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4DB1AEFB8DF63B865ADE9A64BA3566 /* Pods-NedapAppTests-umbrella.h in Headers */,
+				7DDED2B9918B467ED3D3AE56C0B62B12 /* Pods-pushmynotifsUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76917A8692D8059FD97B5659CF587CC2 /* Headers */ = {
+		2F241C5D7138389B205F081042ED17B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6524846C1BA714CCCCB6E56672BDC75 /* Pods-NedapApp-umbrella.h in Headers */,
+				4CEDA934ED19C2B3D6FB316EBF51BFA7 /* Pods-pushmynotifs-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA9A65743F66F43776F41D3BE34130E /* Headers */ = {
+		302557A66AD7F29967CB12F3880B37B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93442159F1575C221234D99D44D2A225 /* Pods-NedapAppUITests-umbrella.h in Headers */,
+				C70F8E6E91D24411BC21689B30757933 /* Pods-pushmynotifsTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,38 +462,56 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AD905F73AADDDCBE6AFDF95BBDC07336 /* Pods-NedapAppUITests */ = {
+		6AEF5198A107EF375ECC58E7B732BDF6 /* Pods-pushmynotifsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C765C4B86BC0E2D4D5FF88FAA391B70F /* Build configuration list for PBXNativeTarget "Pods-NedapAppUITests" */;
+			buildConfigurationList = EC21F7BF9547F38B4577D52075A39374 /* Build configuration list for PBXNativeTarget "Pods-pushmynotifsUITests" */;
 			buildPhases = (
-				1D9FD7F52F2C7B36C2AFBD39D803CF86 /* Sources */,
-				7B2F48558A69D06078FCFB81346B0F20 /* Frameworks */,
-				9AA9A65743F66F43776F41D3BE34130E /* Headers */,
+				372525CB367569ED9696BDDE861BE74A /* Sources */,
+				BB0AE287806C8E5C921C7595260A84AE /* Frameworks */,
+				25B63725C9FA8EFE041B39F7E1236005 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-NedapAppUITests";
-			productName = "Pods-NedapAppUITests";
-			productReference = 87B34AE0D89DB0BFE17FDDE5C61D015D /* Pods_NedapAppUITests.framework */;
+			name = "Pods-pushmynotifsUITests";
+			productName = "Pods-pushmynotifsUITests";
+			productReference = 8078B32167135346D3499F012D09C739 /* Pods_pushmynotifsUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B9258EE161B5DBC1CEB0F70DEA89CF63 /* Pods-NedapAppTests */ = {
+		7FFF90E81E3463E421D6688543AA9FCD /* Pods-pushmynotifsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1FD4B75E36DB11E4B9536A88781BE9E /* Build configuration list for PBXNativeTarget "Pods-NedapAppTests" */;
+			buildConfigurationList = A9495438305F5F5063E0507440F30F81 /* Build configuration list for PBXNativeTarget "Pods-pushmynotifsTests" */;
 			buildPhases = (
-				E9CFD69ADF9FA75A1BD3F858AF8349AB /* Sources */,
-				620094EAF5D52869320CFDDA2D180C40 /* Frameworks */,
-				0C48D79D74B853AE7E88468BEC5D48FC /* Headers */,
+				5E18FC377115443B4E8F89C75CEFE96D /* Sources */,
+				8C348B682C98405C1A2211827B6FBC12 /* Frameworks */,
+				302557A66AD7F29967CB12F3880B37B3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-NedapAppTests";
-			productName = "Pods-NedapAppTests";
-			productReference = 54DBA44EFB1829DBDE755AE2A1F575F1 /* Pods_NedapAppTests.framework */;
+			name = "Pods-pushmynotifsTests";
+			productName = "Pods-pushmynotifsTests";
+			productReference = F4A1E4DE4749FA6DF65E82EB12AA8BCB /* Pods_pushmynotifsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93B6B0DEA468FB30958B498ADCE316F9 /* Pods-pushmynotifs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65926CFDEF80A2451775D78E1BBD6B7D /* Build configuration list for PBXNativeTarget "Pods-pushmynotifs" */;
+			buildPhases = (
+				0810D48D92ECF9B5F4397DB5698A8870 /* Sources */,
+				3D258A5B5E34E0D61095FE5775225402 /* Frameworks */,
+				2F241C5D7138389B205F081042ED17B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0D3CAA6CA8EB591DA7E0FBBB81A5E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-pushmynotifs";
+			productName = "Pods-pushmynotifs";
+			productReference = 831402A6730388220ABA457A93115E20 /* Pods_pushmynotifs.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C5B80060FE8C664DF08841000F41D515 /* GoogleToolboxForMac */ = {
@@ -510,25 +528,7 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = 65B734165C12BF8C497E33A0DF130417 /* GoogleToolboxForMac.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FA5A49FDB23E3C1CA5034529D6AF2DA8 /* Pods-NedapApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4AC402BED33CA34633651A812DE9F848 /* Build configuration list for PBXNativeTarget "Pods-NedapApp" */;
-			buildPhases = (
-				85C816BF3DE3CD20E729893DFEDF1DB5 /* Sources */,
-				C29A230D4451420EAE6B43685AE40C4E /* Frameworks */,
-				76917A8692D8059FD97B5659CF587CC2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				784BB1E6239A7C59F3EA000792601554 /* PBXTargetDependency */,
-			);
-			name = "Pods-NedapApp";
-			productName = "Pods-NedapApp";
-			productReference = F15CE561AB516B97433B644EC39BA41C /* Pods_NedapApp.framework */;
+			productReference = 297DD76973DD4CB709213AD6B754E1D2 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -548,40 +548,40 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BA62FFE5CEE0DBDE9011AF5063E31BB5 /* Products */;
+			productRefGroup = 0D9760A8782EF5B1FDAF0A6991AB3A62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C5B80060FE8C664DF08841000F41D515 /* GoogleToolboxForMac */,
-				FA5A49FDB23E3C1CA5034529D6AF2DA8 /* Pods-NedapApp */,
-				B9258EE161B5DBC1CEB0F70DEA89CF63 /* Pods-NedapAppTests */,
-				AD905F73AADDDCBE6AFDF95BBDC07336 /* Pods-NedapAppUITests */,
+				93B6B0DEA468FB30958B498ADCE316F9 /* Pods-pushmynotifs */,
+				7FFF90E81E3463E421D6688543AA9FCD /* Pods-pushmynotifsTests */,
+				6AEF5198A107EF375ECC58E7B732BDF6 /* Pods-pushmynotifsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D9FD7F52F2C7B36C2AFBD39D803CF86 /* Sources */ = {
+		0810D48D92ECF9B5F4397DB5698A8870 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2C0E50253C3E25034F2CC74D283C33 /* Pods-NedapAppUITests-dummy.m in Sources */,
+				C0D7CD48A43DA4E36360902011C2C1AC /* Pods-pushmynotifs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C816BF3DE3CD20E729893DFEDF1DB5 /* Sources */ = {
+		372525CB367569ED9696BDDE861BE74A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				329346398641D1DE364DCBDD45536D50 /* Pods-NedapApp-dummy.m in Sources */,
+				31D03A258B4FA991F4B250E0A7DB09D0 /* Pods-pushmynotifsUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CFD69ADF9FA75A1BD3F858AF8349AB /* Sources */ = {
+		5E18FC377115443B4E8F89C75CEFE96D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA2C717B5583FC5DD4C3A89B027FFD75 /* Pods-NedapAppTests-dummy.m in Sources */,
+				89E42B0910EB018027D2FFB836C78EC3 /* Pods-pushmynotifsTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,18 +598,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		784BB1E6239A7C59F3EA000792601554 /* PBXTargetDependency */ = {
+		5B0D3CAA6CA8EB591DA7E0FBBB81A5E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleToolboxForMac;
 			target = C5B80060FE8C664DF08841000F41D515 /* GoogleToolboxForMac */;
-			targetProxy = 3F9456E1D57D118339A33A7226789941 /* PBXContainerItemProxy */;
+			targetProxy = 80057B140F369F96709790BCF77BA20A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		277C1728BA517776689F0820F829ACE9 /* Debug */ = {
+		3F458BDEE71615BB81C0425757CDD274 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77DCF64E1D2CA278B2D66F6DE4254876 /* Pods-NedapAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 9335D6C3529D989A5630A0C53407603A /* Pods-pushmynotifs.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -622,53 +622,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NedapAppUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-pushmynotifs/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NedapAppUITests/Pods-NedapAppUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-pushmynotifs/Pods-pushmynotifs.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NedapAppUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3C3AAE398F205F22A29C39E3D90440A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A27F8349242B54D6C39E561202D7B3B1 /* Pods-NedapApp.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NedapApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NedapApp/Pods-NedapApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NedapApp;
+				PRODUCT_NAME = Pods_pushmynotifs;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -709,44 +674,9 @@
 			};
 			name = Release;
 		};
-		6D61EE77776349205103C81B9D9F70E5 /* Release */ = {
+		4F767AC6DAE7F862856440E8614CFB06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 758C0960785D1CF4C74D767C47228D0A /* Pods-NedapApp.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NedapApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NedapApp/Pods-NedapApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NedapApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7D31EB8E8D9F35F4383C4B17EA4CC128 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 218A8F68B8E8EBA8489EDA0C1ED4686C /* Pods-NedapAppTests.debug.xcconfig */;
+			baseConfigurationReference = 81CDB8E1872D7967014A5B1DAE0BD819 /* Pods-pushmynotifsTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -759,18 +689,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NedapAppTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-pushmynotifsTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NedapAppTests/Pods-NedapAppTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-pushmynotifsTests/Pods-pushmynotifsTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NedapAppTests;
+				PRODUCT_NAME = Pods_pushmynotifsTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -778,6 +708,116 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5172CA27BFB2E60179E276A8BD1D0225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E071B3323B1D560608BB521B2EAD2D1 /* Pods-pushmynotifs.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushmynotifs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushmynotifs/Pods-pushmynotifs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushmynotifs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56E7FAC72E70CFD5716A736330AC8A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564720FA7078BAEEF44A6DEE62DDD345 /* Pods-pushmynotifsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushmynotifsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushmynotifsTests/Pods-pushmynotifsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushmynotifsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		A32151AFE5B658C8AB05481B80BE36FE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -811,7 +851,77 @@
 			};
 			name = Debug;
 		};
-		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+		B889BC9FE891D4A264CB8B47B456F42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E0EB342CAF427D90B920C5A875D02E /* Pods-pushmynotifsUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushmynotifsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushmynotifsUITests/Pods-pushmynotifsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushmynotifsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E22F26D918F17A0A8AA54CCA556FDF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192BF7ACED502869DC557B9EBDDA4D2B /* Pods-pushmynotifsUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushmynotifsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushmynotifsUITests/Pods-pushmynotifsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushmynotifsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -847,7 +957,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -855,133 +965,23 @@
 			};
 			name = Debug;
 		};
-		DD807D49C1BD9992A6A320601D61D9BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21767E527A7DDF700EB8436FA6594A81 /* Pods-NedapAppUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NedapAppUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NedapAppUITests/Pods-NedapAppUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NedapAppUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F08A4130949D08F86347B0B1129D0013 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22AFA1F614BE8E66A575A67E55A67280 /* Pods-NedapAppTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NedapAppTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NedapAppTests/Pods-NedapAppTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NedapAppTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
-				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AC402BED33CA34633651A812DE9F848 /* Build configuration list for PBXNativeTarget "Pods-NedapApp" */ = {
+		65926CFDEF80A2451775D78E1BBD6B7D /* Build configuration list for PBXNativeTarget "Pods-pushmynotifs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C3AAE398F205F22A29C39E3D90440A9 /* Debug */,
-				6D61EE77776349205103C81B9D9F70E5 /* Release */,
+				3F458BDEE71615BB81C0425757CDD274 /* Debug */,
+				5172CA27BFB2E60179E276A8BD1D0225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -995,20 +995,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C765C4B86BC0E2D4D5FF88FAA391B70F /* Build configuration list for PBXNativeTarget "Pods-NedapAppUITests" */ = {
+		A9495438305F5F5063E0507440F30F81 /* Build configuration list for PBXNativeTarget "Pods-pushmynotifsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				277C1728BA517776689F0820F829ACE9 /* Debug */,
-				DD807D49C1BD9992A6A320601D61D9BB /* Release */,
+				4F767AC6DAE7F862856440E8614CFB06 /* Debug */,
+				56E7FAC72E70CFD5716A736330AC8A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1FD4B75E36DB11E4B9536A88781BE9E /* Build configuration list for PBXNativeTarget "Pods-NedapAppTests" */ = {
+		EC21F7BF9547F38B4577D52075A39374 /* Build configuration list for PBXNativeTarget "Pods-pushmynotifsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D31EB8E8D9F35F4383C4B17EA4CC128 /* Debug */,
-				F08A4130949D08F86347B0B1129D0013 /* Release */,
+				E22F26D918F17A0A8AA54CCA556FDF29 /* Debug */,
+				B889BC9FE891D4A264CB8B47B456F42C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

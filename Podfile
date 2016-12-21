@@ -1,19 +1,19 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'NedapApp' do
+target 'pushmynotifs' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for NedapApp
+  # Pods for pushmynotifs
   pod 'Firebase'
   pod 'Firebase/Messaging'
-  target 'NedapAppTests' do
+  target 'pushmynotifsTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'NedapAppUITests' do
+  target 'pushmynotifsUITests' do
     inherit! :search_paths
     # Pods for testing
   end
