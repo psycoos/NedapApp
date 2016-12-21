@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1156989D1E0A96400009801B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 1156989C1E0A96400009801B /* GoogleService-Info (1).plist */; };
+		A020CCA8A1D09E45060D4E69 /* Pods_NedapApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AB024396F2E4249580AFB5 /* Pods_NedapApp.framework */; };
 		F29891661DF6BA1500CDB224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891651DF6BA1500CDB224 /* AppDelegate.swift */; };
 		F29891681DF6BA1500CDB224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891671DF6BA1500CDB224 /* ViewController.swift */; };
 		F298916B1DF6BA1600CDB224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29891691DF6BA1600CDB224 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		F29891701DF6BA1600CDB224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F298916E1DF6BA1600CDB224 /* LaunchScreen.storyboard */; };
 		F298917B1DF6BA1600CDB224 /* NedapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298917A1DF6BA1600CDB224 /* NedapAppTests.swift */; };
 		F29891861DF6BA1600CDB224 /* NedapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29891851DF6BA1600CDB224 /* NedapAppUITests.swift */; };
+		F3A20900564C550B1C88F75F /* Pods_NedapAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C6C001656DFB427C694095 /* Pods_NedapAppUITests.framework */; };
+		F4E3A4DD563833955FD60D9F /* Pods_NedapAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8151BE5000F5AFF9F77E890 /* Pods_NedapAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1156989C1E0A96400009801B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		11AB024396F2E4249580AFB5 /* Pods_NedapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NedapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7654931F9500230CC76288 /* Pods-NedapAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NedapAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NedapAppTests/Pods-NedapAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F67FF8DF18F80B8F026CD84 /* Pods-NedapAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NedapAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NedapAppUITests/Pods-NedapAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90C6C001656DFB427C694095 /* Pods_NedapAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NedapAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A567BD90A25F51F9BAB5845C /* Pods-NedapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NedapApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NedapApp/Pods-NedapApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A6502AB2645D2C86BC8A9518 /* Pods-NedapAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NedapAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NedapAppUITests/Pods-NedapAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B230A0F24901716DA7F9FB2F /* Pods-NedapAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NedapAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NedapAppTests/Pods-NedapAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D06B53D29758C524C0DA2FDF /* Pods-NedapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NedapApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NedapApp/Pods-NedapApp.release.xcconfig"; sourceTree = "<group>"; };
+		E8151BE5000F5AFF9F77E890 /* Pods_NedapAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NedapAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29891621DF6BA1500CDB224 /* NedapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NedapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29891651DF6BA1500CDB224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29891671DF6BA1500CDB224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A020CCA8A1D09E45060D4E69 /* Pods_NedapApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E3A4DD563833955FD60D9F /* Pods_NedapAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A20900564C550B1C88F75F /* Pods_NedapAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F957C439090B994AC7BB2F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A567BD90A25F51F9BAB5845C /* Pods-NedapApp.debug.xcconfig */,
+				D06B53D29758C524C0DA2FDF /* Pods-NedapApp.release.xcconfig */,
+				7B7654931F9500230CC76288 /* Pods-NedapAppTests.debug.xcconfig */,
+				B230A0F24901716DA7F9FB2F /* Pods-NedapAppTests.release.xcconfig */,
+				A6502AB2645D2C86BC8A9518 /* Pods-NedapAppUITests.debug.xcconfig */,
+				7F67FF8DF18F80B8F026CD84 /* Pods-NedapAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4B318F403E8237DD8AFFE57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11AB024396F2E4249580AFB5 /* Pods_NedapApp.framework */,
+				E8151BE5000F5AFF9F77E890 /* Pods_NedapAppTests.framework */,
+				90C6C001656DFB427C694095 /* Pods_NedapAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F29891591DF6BA1400CDB224 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				F29891791DF6BA1600CDB224 /* NedapAppTests */,
 				F29891841DF6BA1600CDB224 /* NedapAppUITests */,
 				F29891631DF6BA1500CDB224 /* Products */,
+				8F957C439090B994AC7BB2F5 /* Pods */,
+				C4B318F403E8237DD8AFFE57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +139,7 @@
 		F29891641DF6BA1500CDB224 /* NedapApp */ = {
 			isa = PBXGroup;
 			children = (
+				1156989C1E0A96400009801B /* GoogleService-Info (1).plist */,
 				F29891651DF6BA1500CDB224 /* AppDelegate.swift */,
 				F29891671DF6BA1500CDB224 /* ViewController.swift */,
 				F29891691DF6BA1600CDB224 /* Main.storyboard */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F298918A1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapApp" */;
 			buildPhases = (
+				0FB8E5B7FE0CC228F281F4DB /* [CP] Check Pods Manifest.lock */,
 				F298915E1DF6BA1400CDB224 /* Sources */,
 				F298915F1DF6BA1400CDB224 /* Frameworks */,
 				F29891601DF6BA1400CDB224 /* Resources */,
+				E04E6F5E7AF6E46CA79394B4 /* [CP] Embed Pods Frameworks */,
+				AC89F8C983854DB2A2ABB7EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F298918D1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppTests" */;
 			buildPhases = (
+				787F9E514EAF70FEA2AC85C2 /* [CP] Check Pods Manifest.lock */,
 				F29891721DF6BA1600CDB224 /* Sources */,
 				F29891731DF6BA1600CDB224 /* Frameworks */,
 				F29891741DF6BA1600CDB224 /* Resources */,
+				9CFA36F238010E6F9F939660 /* [CP] Embed Pods Frameworks */,
+				74A7D804F9DD17FE5B288778 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F29891901DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppUITests" */;
 			buildPhases = (
+				5462A6C3613F9C028F698F80 /* [CP] Check Pods Manifest.lock */,
 				F298917D1DF6BA1600CDB224 /* Sources */,
 				F298917E1DF6BA1600CDB224 /* Frameworks */,
 				F298917F1DF6BA1600CDB224 /* Resources */,
+				1B37CCAAE5B52A472C3C7297 /* [CP] Embed Pods Frameworks */,
+				602B6759DE45B0C09FCEDC82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +290,7 @@
 				F29891701DF6BA1600CDB224 /* LaunchScreen.storyboard in Resources */,
 				F298916D1DF6BA1600CDB224 /* Assets.xcassets in Resources */,
 				F298916B1DF6BA1600CDB224 /* Main.storyboard in Resources */,
+				1156989D1E0A96400009801B /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FB8E5B7FE0CC228F281F4DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B37CCAAE5B52A472C3C7297 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NedapAppUITests/Pods-NedapAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5462A6C3613F9C028F698F80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		602B6759DE45B0C09FCEDC82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NedapAppUITests/Pods-NedapAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A7D804F9DD17FE5B288778 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NedapAppTests/Pods-NedapAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787F9E514EAF70FEA2AC85C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFA36F238010E6F9F939660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NedapAppTests/Pods-NedapAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC89F8C983854DB2A2ABB7EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NedapApp/Pods-NedapApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04E6F5E7AF6E46CA79394B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NedapApp/Pods-NedapApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F298915E1DF6BA1400CDB224 /* Sources */ = {
@@ -411,12 +602,13 @@
 		};
 		F298918B1DF6BA1600CDB224 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A567BD90A25F51F9BAB5845C /* Pods-NedapApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EBSX6CSZNX;
 				INFOPLIST_FILE = NedapApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Jurjen.NedapApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,12 +616,13 @@
 		};
 		F298918C1DF6BA1600CDB224 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06B53D29758C524C0DA2FDF /* Pods-NedapApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EBSX6CSZNX;
 				INFOPLIST_FILE = NedapApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = coos.NedapApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Jurjen.NedapApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -437,6 +630,7 @@
 		};
 		F298918E1DF6BA1600CDB224 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7654931F9500230CC76288 /* Pods-NedapAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +646,7 @@
 		};
 		F298918F1DF6BA1600CDB224 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B230A0F24901716DA7F9FB2F /* Pods-NedapAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +662,7 @@
 		};
 		F29891911DF6BA1600CDB224 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6502AB2645D2C86BC8A9518 /* Pods-NedapAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EBSX6CSZNX;
@@ -481,6 +677,7 @@
 		};
 		F29891921DF6BA1600CDB224 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F67FF8DF18F80B8F026CD84 /* Pods-NedapAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EBSX6CSZNX;
@@ -512,6 +709,7 @@
 				F298918C1DF6BA1600CDB224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F298918D1DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +718,7 @@
 				F298918F1DF6BA1600CDB224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F29891901DF6BA1600CDB224 /* Build configuration list for PBXNativeTarget "NedapAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +727,7 @@
 				F29891921DF6BA1600CDB224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
