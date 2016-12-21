@@ -15,7 +15,7 @@ class TableController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        get_data_from_url("http://www.kaleidosblog.com/tutorial/tutorial.json")
+        get_data_from_url("https://fast-gorge-22395.herokuapp.com/names.json")
     }
 
     override func didReceiveMemoryWarning() {
@@ -91,17 +91,17 @@ class TableController: UITableViewController {
         }
         
         
-        if let countries_list = json as? NSArray
+        if let client_list = json as? NSArray
         {
             for i in 0 ..< data_list.count
             {
-                if let country_obj = countries_list[i] as? NSDictionary
+                if let client_obj = client_list[i] as? NSDictionary
                 {
-                    if let country_name = country_obj["country"] as? String
+                    if let client_name = client_obj["name"] as? String
                     {
-                        if let country_code = country_obj["code"] as? String
+                        if let client_code = client_obj["condition"] as? String
                         {
-                            TableData.append(country_name + " [" + country_code + "]")
+                            TableData.append(client_name + ", " + client_code)
                         }
                     }
                 }
